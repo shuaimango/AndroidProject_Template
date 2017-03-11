@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><!--文档声明，必须在第一行且左对齐。XML有还有一个1.1的版本，但不向下兼容，所以普通用1.0版本-->
+<android.support.design.widget.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/app_bar_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ViewStub
+        android:id="@+id/viewStub_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_titlebar" />
+
+</android.support.design.widget.AppBarLayout>
